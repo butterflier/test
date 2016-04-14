@@ -1,0 +1,76 @@
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script></head>
+<body>
+		<div class="heading-contact" style="padding-top: 20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="wow bounceInDown" data-wow-delay="0.4s">
+							<div class="section-heading" style="text-align: center;">
+								<h2>CONTACT : お問い合わせ</h2>
+								<i class="fa fa-2x fa-angle-down"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-5">
+					<hr class="marginbot-50">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="boxed-grey">
+						<form action="contact.php" name="contactform" method="post" id="contact-form">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="name">お名前 / Name</label>
+										<input id="name" class="form-control" type="text" name="first_name" placeholder="Enter you name"/>
+									</div>
+									<div class="form-group">
+										<label for="email">メールアドレス / Email Address</label>
+										<div id="input_email" class="input-group">
+											<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+											<input id="email" class="form-control" type="text" name="email" placeholder="Enter your email"/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="subject">タイトル / Subject</label>
+										<div id="contents" class="text">
+										    <input id-"content" class="form-control" type="text" name="content" placeholder="タイトルを入力してください">
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6" style="padding-top:20px;">
+									<div id="input_message" class="col-md-12">
+										<textarea id="comments" class="form-control" name="message" rows="6" placeholder="内容 / Contents"></textarea>
+									</div>
+
+								</div>
+								<!-- Submit Button -->
+								<div class="col-md-12">
+									<input class="btn btn-skin pull-right" type="submit" value="送信 / Submit" id="submit">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="top-buffer">
+		<p>
+		</p>
+	</div>
+	</body>
